@@ -7,6 +7,8 @@ using namespace std;
 
 void setZeroes(vector<vector<int>>& mat) {
         // Using pair
+        //O(2*n*m)---because we are traversing twice---one below and other one below that-n-rows,m-cols
+        //O(1)-space
         
         vector<pair<int,int>>a;
         for(int i=0;i<mat.size();i++)
